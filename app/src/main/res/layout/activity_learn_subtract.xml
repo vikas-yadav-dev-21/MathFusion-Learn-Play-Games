@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LearnSubtractActivity"
+    android:background="@drawable/woden_bg">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/heading_bg"
+        android:gravity="center"
+        android:text="Subtraction"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is Subtraction?"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subtraction is one of the four basic arithmetic operations in mathematics. The other three being addition, multiplication, and division.
+\n \n
+We can observe the applications of subtraction in our day-to-day life in different situations.
+\n \n
+For example, if we have 3 candies and our friend asks us for 1 candy, how many candies are we left with? Simply,
+\n \n
+3 − 1 = 2
+\n \n
+Let’s understand the concept with the help of the following example of apples."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sub1"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In the example above, if Harry has 6 apples and he gives 3 apples to Jim, How many apples are left with him?
+\n \n
+We can calculate this by subtracting 3 from 6:
+\n \n
+6 − 3 = 3
+\n \n
+Harry is left with 3 apples. "
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Definition of Subtraction"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The operation or process of finding the difference between two numbers or quantities is known as subtraction. To subtract a number from another number is also referred to as ‘taking away one number from another’. Some instances where we use subtraction are while making payments, transferring money to our friends and many more."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Symbol of Subtraction"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In mathematics, we have generally used different symbols for different operators. We have symbols like +, −, /, * and many more. The subtraction symbol “−” is one of the most important math symbols that we use. In the above section, we read about subtracting two numbers 6 and 3. If we observe this expression: (6 − 3 = 3), the symbol (−) between the two numbers is what denotes subtraction. This symbol is also known as the minus (−) sign."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Formula of Subtraction Operation"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="When we subtract two numbers, we commonly use some terms that are used in a subtraction expression:
+\n \n
+Minuend: A minuend is the number from which the other number is subtracted.
+\n \n
+Subtrahend: A subtrahend is the number which is to be subtracted from the minuend.
+\n \n
+Difference: A difference is the final result after subtracting the subtrahend from the minuend."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sub2"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The subtraction formula is written as
+\n \n
+Minuend − Subtrahend = Difference
+\n \n
+For example,
+\n \n
+7 − 3 = 4
+\n \n
+Here,
+\n \n
+7 = Minuend
+\n \n
+3 = Subtrahend
+\n \n
+4 = Difference"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What Is Minus in Math?"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Minus is a sign or a symbol that is represented by a horizontal line."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sub3"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We use minus in mathematics for multiple representations."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Uses of Minus Sign"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subtraction Operation"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Minus represents the arithmetic operation of subtraction between two numbers. We use minus sign to denote subtract, decreased by, take away, etc.
+\n \n
+For example,"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sub4"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Minus sign also means how much is one value more than the other value.
+\n \n
+For example, Darby has 8 gingerbread with her and Olive has 3 gingerbreads.
+\n \n
+Darby has more gingerbreads by (8 − 3) = 5"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sub5"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To Represent Negative Integers"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Integers are the numbers that are not in decimal or fractional form and include positive and negative numbers along with 0. We use the minus sign to represent the negative integers, i.e., the whole numbers which are less than zero (no fractions).
+\n \n
+For representing a negative integer, we add a negative or minus sign in front of a whole number. For example, negative integer 5 is represented as: (− 5)"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Use in Measurement"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We also use the minus sign in measurement specially in temperature.
+\n \n
+For example, a temperature of  − 4 means 4 degrees below zero.
+\n \n
+Another example: The temperature is 5 and then drops − 10. What is the temperature now?
+
+The temperature now = 5 − 10 = − 5"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sub6"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To Represent Opposite Directions"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We also use the minus sign to represent a negative direction on a graph paper to show the coordinates."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sub7"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The graph also runs in the negative direction.
+\n \n
+1.In the first quadrant, the coordinates are of the form (x,y). \n
+2.In the second quadrant, the coordinates are of the form (−x,y). \n
+3.In the third quadrant, the coordinates are of the form (−x,−y). \n
+4.In the fourth quadrant, the coordinates are of the form (x,−y). "
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mathematical Operations on Integers Using “Minus” Sign"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Multiplication of two negative numbers gives a positive number. \n
+Negative X Negative  = Positive
+\n \n
+For example, (− 5) X (− 15) = + 75
+\n \n
+2. Multiplication of a negative number and a positive number gives a negative number. \n
+Negative X Positive  = Negative
+\n \n
+For example, (− 5) X (15) = − 75
+\n \n
+3. Addition of a negative number with a negative number will always give a negative number. \n
+Negative + Negative = Negative
+\n \n
+For example, (− 3) + (− 4) = (− 7)
+\n \n
+4.Subtracting a positive number from a negative number will always give a negative number. \n
+If we subtract a positive number from a negative number, we start at the negative number and count backwards. \n
+\n
+Negative − Positive = Negative
+\n \n
+Using the number line, let’s start at − 3.
+\n \n
+For example: Say, we have the problem (− 2) − 3. "
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sub8"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Now count backwards 3 units. So, keep counting back three spaces from − 2 on the number line, we get"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sub9"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The answer is (− 2) − 3 = − 5."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.Subtracting a negative number from a negative number \n
+A negative sign followed by a negative sign, turns the two signs into a positive sign. So, instead of subtracting a negative, you are adding a positive. The answer could be either positive or negative, depending on the magnitude of the numbers.
+\n \n
+Negative − Negative = Negative + Positive
+\n \n
+Basically, − (− 5) becomes + 5, and then you add the numbers.
+\n \n
+For example, we have (− 2) − (− 5). We can read it as “negative two minus negative 5”. We’re changing the two negative signs into a positive, so the equation now becomes (− 2) + 5.
+\n \n
+On the number line, it starts at − 2."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sub10"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Then we move forward 5 units: + 5."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sub11"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The answer is − 2 − (− 5) = 3."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.Subtracting a negative number from a positive number will always give a positive number. \n
+When we subtract a negative number from a positive number, we turn the subtraction sign followed by a negative sign into a plus sign. So, instead of subtracting a negative, you’re adding a positive. So the equation turns into a simple addition problem.
+\n \n
+Positive – Negative = Positive + Positive
+\n \n
+For example, let’s say we have the problem 2 − (− 4). This reads “two minus negative four.” The − (− 4) turns into + 4.
+\n \n
+On the number line we start at 2."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sub12"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Then we move forward three units: 2 + 4."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sub13"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The answer is 2 − (− 4) = 6."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Methods of Subtraction"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="There are various methods for subtraction. In this article, we shall be discussing three of them."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visual representation"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="One of the methods is to use a diagram showing what you start with, what you are taking away, and what you are left with.
+\n \n
+For example, we have 5 balls, now a friend asks for 2 balls, we can easily calculate that we are left with 2 balls using the concept of subtraction by depicting it through a diagram as given below:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sub14"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Another method to perform subtraction is by using a number line."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subtraction on Number Lines"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If we want to calculate 5 minus 2, we start from 5. Since we need to subtract 2,  we take 2 steps back. Finally we observe that we are standing at 3.
+\n \n
+So, this is how 5 − 2 is calculated on the number line."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sub15"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a number line representation of the expression."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Column method"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The generally used method is the column method of subtraction, where we separate the numbers into ones, tens, hundreds and so on and write the minuend above the subtrahend, where all the ones are in one column, all the tens are in another column and so on. In this method, we always start the subtraction with the ones and proceed from right to left. "
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sub16"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regrouping in Math"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regrouping in math can be defined as the process of making/breaking groups when carrying out operations like addition and subtraction. To regroup means to rearrange groups in place value to carry out an operation. We use regrouping in subtraction, when digits in the minuend are smaller than the digits in the same place of the subtrahend.
+\n \n
+This process is called regrouping as we are regrouping numbers or rearranging them into their place value to carry out this process. When we use regrouping in subtraction, it is also sometimes called borrowing."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subtraction with Regrouping"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In subtraction, we sometimes use the concept of regrouping between numbers. When the numbers are subtracted using the column method and the bottom digit is greater than the upper digit, we regroup the numbers to be able to subtract.
+\n \n
+Let us understand subtraction using this regrouping example, which includes finding the answer to the expression 31 − 19."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sub17"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Here, we first subtract the unit place digit of the number in the lower slot with the upper slot. If the number in the lower slot is larger than the number in the upper slot, regrouping takes place, also called borrowing. In this case, we subtract one from the tens place digit from the upper slot number and write the remaining number above it, that is, we take 1 from 3 making it 2 which we wrote above 3, while this 1 that we subtracted is “borrowed” to the unit place, making it a 10 and adding it to the unit place existing number, giving us a two digit number. In simpler words 10 is borrowed from the tens place digit and added to the unit place digit. In the above example, 10 is added to the unit place digit i.e. 1 and we write 11 above the unit place digit. "
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sub18"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Now, we move on to the real subtraction of the two numbers. The number of the unit place of the upper slot can now be subtracted from the unit place number of the lower slot, i.e. 11 − 9 giving us 2. While we normally take the remaining number from the upper slot i.e. 2 and subtract the lower slot number from it, i.e., 2 − 1, giving us 1, which leaves us with 12 as the final answer."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sub19"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Here’s how we regroup hundred and tens to subtract 182 from 427:"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sub19"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conclusion"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In this article, we have learned about subtraction, its definition with example, the symbols used for it, the common methods used for subtraction. We also learned about the minus sign. The minus sign is used for different purposes. Let’s practice our understanding with a few solved examples and practice problems and solved examples."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

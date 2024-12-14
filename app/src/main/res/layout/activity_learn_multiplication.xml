@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LearnMultiplicationActivity"
+    android:background="@drawable/woden_bg">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/heading_bg"
+        android:gravity="center"
+        android:text="Multiplication"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiplication Definition"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiplication is one of the four basic arithmetic operations, alongside addition, subtraction, and division. In math, multiply means the repeated addition of groups of equal sizes.
+\n \n
+To understand better, let us take a multiplication example of the ice creams."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/multi1"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Each group has ice creams, and there are two such groups.
+\n \n
+Total ice creams are 3 + 3 = 6.
+\n \n
+However, you have added two groups of 3 ice creams. Therefore, you have multiplied three ice creams by two. You may also write it as 2 X 3 = 6.
+\n \n
+As we can see, 3 + 3 is the same as 2 X 3.When we multiply two numbers, the answer is called product. The number of objects in each group is called multiplicand, and the number of such equal groups is called the multiplier. In our case, 3 is the multiplicand, 2 is the multiplier and 6 is the product."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/multi2"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="There are many ways to read an equation that involves multiplication.
+\n \n
+For example, 2 X 3 = 6. It can be read as follows:
+\n \n
+1. Two multiplied by three is six. \n
+2. Two times three is six. \n
+3. Two threes are six. "
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Symbol of Multiplication"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiplication is represented by the signs cross (×), asterisk (*), or dot (·). While writing in your notebooks, you are most likely to use the cross. The asterisk and dot are used in computer languages and algebra (higher mathematics).
+\n \n
+For example: 6 X 5 = 30
+\n \n
+7 * 8 = 56
+\n \n
+5 · 4 = 20"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiplying Integers"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In order to multiply the integers, we need to see the sign of the integers.
+\n \n
+1. Multiply two positive integers \n
+The product of the two positive integers is always a positive integer.
+\n \n
+For example: 5 X 6 = 30
+\n \n
+2. Multiply one positive and one negative integer"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The product of a positive and negative integer is always a negative number. "
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="For example: (- 5) X 6 = (- 30)
+\n \n
+1. Multiply two negative integers \n
+The product of two negative integers is always a positive integer.
+\n \n
+For example: (- 5) X ( - 6) = 30"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Multiplying Fractions "
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In order to multiply the fractions, the numerators and denominators are multiplied together such that:
+\n \n
+a/b X c/d = (aXc)/(bXd)
+\n \n
+For example: Multiply 1/2 and 3/4.
+\n \n
+1/2 X 3/4 = (1X3)/(2X4) = 3/8"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiplying Decimals"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiplying the decimals is the same as multiplying the integers.
+\n \n
+For example: Multiply 13.2 and 3.5.
+\n \n
+Let us multiply 13.2 and 3.5 by removing the decimals here and consider them whole numbers. Hence,
+\n \n
+132 X 35 = 4620
+\n \n
+We put the decimal point back, then the product of the two decimal numbers will have decimal up to two positions from right to left, such that
+\n \n
+13.2 X 3.5 = 46.20"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiplying Numbers with Powers"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In math, powers define a base raised to the exponent. For example: 3^2, (-5)^4.
+\n \n
+1.When the base is the same but power is different \n
+Let the two expressions be x^m and x^n. Here, the base is “x”.
+\n \n
+When the terms with the same base are multiplied, the powers gets added, i.e., x^m x^n = x^(m + n)
+\n \n
+For example: 3^2 X 3^5=3^(2+5) = 3^7
+\n \n
+2. When the base is different but the exponent is the same \n
+Let the two expressions be x^m and y^m. Here, the power is “m”.
+\n \n
+When the terms with the same exponents are multiplied, the bases are multiplied first and then we apply the exponent, i.e., x^m X y^m = (xy)^m
+\n \n
+For example: 3^2 X 4^2=(3 X 4)^2=12^2 = 144
+\n \n
+3. When the bases and powers are different \n
+Let the two expressions be xn and ym. Here, the bases are x and y. The powers are n and m. When we multiply these expressions, each expression is evaluated separately and then multiplied. It can be written mathematically as
+\n \n
+x^n X y^m = (x)^n x (y)^m
+\n \n
+For example: 3^2 X 4^3=9 X 64 = 576"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conclusion"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiplication is not just an arithmetic tool. It is a life skill that students must master at a very early age to solve real life problems.  We hope this helped you deepen your understanding of the subject.To read more such informative articles on other concepts, do visit our website. We, at Splashlearn, are on a mission to make learning fun and interactive for all students."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LearnAdditionActivity"
+    android:background="@drawable/woden_bg">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/heading_bg"
+        android:gravity="center"
+        android:text="Addition"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What Is Addition?"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Addition is a way of combining things and counting them together as one large group."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sum1"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The first mathematical operation that students are introduced to in elementary mathematics is addition. To add means to bring together or combine two objects. Students then build over this understanding to learn how to add more than two numbers. In higher grades, addition is the basic element to understand more complex operations like multiplication and division. "
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Definition of Addition"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Addition in math is a process of combining two or more numbers. Addends are the numbers being added, and the result or the final answer we get after the process is called the sum. It is one of the essential mathematical functions we use in our everyday activities. There are many situations in which we add numbers. One of the most common everyday uses for adding numbers is when we work with time or money—for example, adding up bills and receipts.
+The addition has an infinite number of applications in our day-to-day life. We use addition while cooking food, while calculating bills at supermarkets, while calculating distances, and much more."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Addition Symbol"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The addition symbol used to indicate addition of numbers is “+” (also called the plus symbol). For example, we read 5 + 3 as “5 plus 3”.
+\n An addition sentence is a mathematical expression that shows two or more values added together and their sum. The two or more values that are added are called addends. The parts of addition sentence are two or more addends, plus symbol(s), equal sign, and the sum."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sum2"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Let’s look at this with the help of another example. \n \n
+Let’s say we have two yellow stars,"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sum3"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" and three purple stars."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sum4"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" In order to find the total number of stars we have, we count all the stars together. That is, together we have 5 stars.\n
+Mathematically, we write this as \n
+2 + 3 = 5."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Here, “+” denotes addition. The total that we get on adding two or more numbers is also called the sum. Therefore in this example, 5 is the sum of 2 and 3.
+\n Considering one more example, if we add the numbers 6 and 4, we get the sum 10; and we write this as \n
+6 + 4 = 10."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Solve Addition Problem"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We can add two numbers easily using the various methods discussed below. These methods are more convenient for adding small numbers.
+\n In their quest to master addition, students start by learning how to add one-digit numbers using their fingers or the number line and then move on to adding bigger numbers using place value or column method. Let’s learn about the addition of two numbers: using fingers, on a number line, using the number grid, by counting forward."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Using Fingers"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Addition of small numbers can be done using your fingers."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Example 1: Let’s say we have to add the numbers 5 and 2. Show 5 fingers on one hand and 2 on the other. Count the total number of fingers to find the sum.
+\n Similarly, to add 2 and 2, show 2 fingers on one hand and 2 on the other. The sum is 4 since four fingers are shown in total."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sum5"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Example 2: Let’s add the numbers 5 and 3.
+\n Step 1: Show 5 fingers on one hand and 3 on the other."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sum6"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 2: Start counting the fingers together like this to find the total."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sum7"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="And we have our total
+\n 5 + 3 = 8."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Using The Number Line"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We can use the number line to add. Let us look at the following addition example.
+\n Example 1: To add 5 and 7, we can count forward 7 steps from 5, as shown below."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sum8"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Example 2: Let’s see how we can add the numbers 11 and 3 using a number line.
+\n Step 1: Mark the bigger number on the number line."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sum9"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 2: Jump forward as many times as the second number."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sum10"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="So, we have
+\n 11 + 3 = 14."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conclusion"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adding numbers is a fundamental mathematical process that combines two or more numerical values. We use this operation in our daily lives; some easy examples are calculating money, calculating time, counting students in a class, etc. The symbol of this operation is a ‘+’ (plus sign)."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
